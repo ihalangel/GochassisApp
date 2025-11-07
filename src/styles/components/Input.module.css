@@ -1,0 +1,23 @@
+/* Inputs y formularios */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius-small);
+  font-family: var(--font-family);
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  border-width: 2px;
+}
+
+/* Error en inputs */
+.input-error {
+  border-color: var(--color-error);
+}

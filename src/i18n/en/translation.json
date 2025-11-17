@@ -1,0 +1,11 @@
+{
+  "login": {
+    "title": "Sign In",
+    "email": "Email",
+    "emailPlaceholder": "user@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "forgotPassword": "Forgot password",
+    "submit": "Sign In"
+  }
+}

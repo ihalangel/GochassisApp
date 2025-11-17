@@ -1,0 +1,50 @@
+/* NavBar.module.css */
+.nav {
+  background-color: var(--color-primary);
+  color: var(--color-bg-white);
+  padding: var(--spacing-md) var(--spacing-lg);
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: var(--spacing-lg);
+}
+
+.navLink {
+  color: var(--color-bg-white);
+  text-decoration: none;
+  font-weight: 600;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius-small);
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: var(--color-accent);
+}
+
+.authButton {
+  background-color: var(--color-accent);
+  color: var(--color-bg-white);
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius-small);
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.authButton:hover {
+  background-color: var(--color-primary);
+}

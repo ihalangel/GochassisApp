@@ -1,0 +1,47 @@
+.languageSwitcher {
+ position: absolute;
+ top:1rem;
+ right:1rem;
+ display: flex;
+ gap:0.5rem;
+ background: transparent;
+ border: none;
+ padding:0.5rem;
+ z-index:1000;
+}
+
+.button {
+ background: transparent;
+ color: #333;
+ border:1px solid #ccc;
+ border-radius:4px;
+ padding:0.3rem0.6rem;
+ cursor: pointer;
+ font-size:0.9rem;
+ transition: all0.2s;
+}
+
+.button:hover {
+ background: #f5f5f5;
+ border-color: #999;
+}
+
+
+@media (max-width: 480px) {
+
+.button {
+ background: var(--color-accent);
+ color: #333;
+ border:1px solid #ccc;
+ border-radius:4px;
+ padding:0.3rem0.6rem;
+ cursor: pointer;
+ font-size:0.9rem;
+ transition: all0.2s;
+}
+
+.button:hover {
+ background: #f5f5f5;
+ border-color: #999;
+}
+}

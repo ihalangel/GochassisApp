@@ -3,8 +3,9 @@
   --color-accent: #34A8DB;
   --color-bg-light: #F8F9FA;
   --color-bg-white: #FFFFFF;
+  --color-text-primary: #F8F9FA;
   --color-text-secondary: #6C757D;
-  --color-success: #28A745;
+   --color-success: #28A745;
   --color-warning: #FFC107;
   --color-error: #DC3545;
   --font-family: 'Inter', sans-serif;

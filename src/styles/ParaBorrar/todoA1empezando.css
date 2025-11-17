@@ -1,0 +1,88 @@
+/* globals.css */
+
+/* Reset básico */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-secondary);
+}
+
+/* Estilo para encabezados, textos */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+
+
+/* Responsive grid para layout */
+.grid {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+@media (max-width: 600px) {
+  /* Ajustes responsivos */
+}
+
+
+
+/* Layout general */
+.page-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: var(--spacing-lg);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+:root {
+  --color-primary: #0A2A70;
+  --color-accent: #34A8DB;
+  --color-bg-light: #F8F9FA;
+  --color-bg-white: #FFFFFF;
+  --color-text-secondary: #6C757D;
+  --color-success: #28A745;
+  --color-warning: #FFC107;
+  --color-error: #DC3545;
+  --font-family: 'Inter', sans-serif;
+  --border-radius-small: 4px;
+  --border-radius-medium: 10px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+}
+
+
